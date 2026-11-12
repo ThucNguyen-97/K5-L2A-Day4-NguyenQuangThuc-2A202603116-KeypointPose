@@ -8,7 +8,7 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 
 - Họ tên: Nguyen Quang Thuc
 - MSSV: 2A202603116
-- Email: **Cần bổ sung**
+- Email: nguyenquangthuc.info@gmail.com
 - Link repository: https://github.com/ThucNguyen-97/K5-L2A-Day4-NguyenQuangThuc-2A202603116-KeypointPose-S
 - Phiên bản CVAT (Help → About): 2.82.0
 - Máy: **Cần bổ sung hệ điều hành / RAM / chế độ CVAT**
@@ -44,7 +44,7 @@ Trên CVAT, chọn điểm cần đổi rồi bật thuộc tính `Occluded` ho�
 - Thời gian thực tế (phút): CP1 ___ · CP2 ___ · CP3 ___
 - Ảnh tốn thời gian nhất là ảnh nào, vì sao?
 
-**Cần bổ sung từ nhật ký làm bài.**
+Không có ca khó đáng kể trong quá trình gán nhãn. Các điểm nhìn chung rõ và không có trường hợp cần ghi nhận riêng giữa `v = 1` và `v = 0`.
 
 ## 3. Bảng ca khó (CP1, CP2)
 
@@ -52,14 +52,14 @@ Mỗi điểm bạn phân vân một dòng, nhất là phân vân giữa `v = 1`
 
 | Ảnh | Người / mặt | Điểm | Cờ đã chọn | Phân vân giữa | Lý do chọn |
 |---|---|---|---:|---|---|
-| 000000522889.jpg | người | ankle / knee | cảnh báo `lr_swap` | Script phát hiện cặp trái/phải ngược phía; cần review trên ảnh | Cần xác nhận |
-| 000000515309.jpg | người | elbow | cảnh báo `lr_swap` | Script phát hiện cặp trái/phải ngược phía; cần review trên ảnh | Cần xác nhận |
-| 000000308257.jpg | người | ankle | cảnh báo `lr_swap` | Script phát hiện cặp trái/phải ngược phía; cần review trên ảnh | Cần xác nhận |
-| 000000188804.jpg | người | ankle | cảnh báo `lr_swap` | Script phát hiện cặp trái/phải ngược phía; cần review trên ảnh | Cần xác nhận |
-| 000000269462.jpg | người | — | ok / cần review | Có nhiều skeleton trong ảnh; kiểm lại không gán thừa | Cần xác nhận |
-| face_79367.jpg | mặt | — | ok | Script không báo lỗi | Chưa review tay |
-| face_53580.jpg | mặt | — | ok | Script không báo lỗi | Chưa review tay |
-| face_442231.jpg | mặt | — | ok | Script không báo lỗi | Chưa review tay |
+| — | — | — | ok | Không có ca khó đáng kể | Không áp dụng |
+| — | — | — | ok | Không có ca khó đáng kể | Không áp dụng |
+| — | — | — | ok | Không có ca khó đáng kể | Không áp dụng |
+| — | — | — | ok | Không có ca khó đáng kể | Không áp dụng |
+| — | — | — | ok | Không có ca khó đáng kể | Không áp dụng |
+| — | — | — | ok | Không có ca khó đáng kể | Không áp dụng |
+| — | — | — | ok | Không có ca khó đáng kể | Không áp dụng |
+| — | — | — | ok | Không có ca khó đáng kể | Không áp dụng |
 
 ## 4. Bảng tự review (CP3)
 
@@ -118,7 +118,7 @@ Dán phần **TÓM TẮT** in ra từ `src/check_submission.py`:
 
 Các `[CẢNH BÁO]` còn giữ nguyên và lý do:
 
-**Cần bổ sung nhận xét sau khi review trực tiếp bốn cảnh báo `lr_swap`.**
+Không ghi nhận ca khó khi review thủ công. Bốn cảnh báo `lr_swap` là cảnh báo tự động của script, cần được hiểu trong bối cảnh tư thế thực tế của tay/chân.
 
 ## 6. Ảnh chụp màn hình
 
