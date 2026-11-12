@@ -122,23 +122,25 @@ Không ghi nhận ca khó khi review thủ công. Bốn cảnh báo `lr_swap` l�
 
 ## 6. Ảnh chụp màn hình
 
-1. Label `person` trong label constructor (đủ 17 điểm có tên):
+1. Skeleton `person` đã gán trên ảnh `000000109010.jpg`:
 
    ![Label person](images/1_label_person.png)
 
-2. Một người quay lưng đã gán, cờ đã đặt:
+2. Ảnh người nhiều đối tượng `000000269462.jpg` đã gán skeleton:
 
    ![Người quay lưng](images/2_nguoi_quay_lung.png)
 
-3. Một khuôn mặt đã gán 13 điểm, phóng to vùng mắt:
+3. Khuôn mặt `face_219250.jpg` đã gán 13 điểm, có kính:
 
    ![Khuôn mặt phóng to](images/3_mat_phong_to.png)
 
-4. Một đoạn JSON xuất của một người:
+4. Khuôn mặt `face_155465.jpg` đã gán 13 điểm:
 
    ![JSON export](images/4_json_export.png)
 
 Nguồn ảnh: COCO val2017 / Wikimedia Commons.
+
+Ghi chú: bốn ảnh hiện có là ảnh minh chứng trực tiếp trên CVAT; chưa có ảnh riêng của label constructor và đoạn JSON export.
 
 ## 7. Tự đánh giá
 
