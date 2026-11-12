@@ -199,4 +199,6 @@ Kết quả `src/check_submission.py` cho `HoVaTen_bonus_persons.zip`:
 
 ## 9. Tài liệu tham khảo và công cụ AI đã dùng
 
-...
+- Tài liệu tham khảo: Không sử dụng tài liệu tham khảo bên ngoài.
+- Công cụ AI đã dùng: LLM Codex hỗ trợ thao tác xuất file sau khi hoàn tất gán nhãn trên CVAT và chạy kiểm tra file xuất.
+- Việc gán nhãn, review và quyết định tọa độ / cờ visibility được thực hiện trên CVAT.
