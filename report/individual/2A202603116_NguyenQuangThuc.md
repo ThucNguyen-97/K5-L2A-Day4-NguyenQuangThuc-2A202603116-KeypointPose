@@ -7,7 +7,8 @@
 - Email: nguyenquangthuc.info@gmail.com
 - Link repository: https://github.com/ThucNguyen-97/K5-L2A-Day4-NguyenQuangThuc-2A202603116-KeypointPose-S
 - Phiên bản CVAT: 2.82.0
-- Máy / thời gian làm bài: **Anh bổ sung**
+- Máy: Microsoft Windows 11 Pro · RAM 15.7 GB
+- Thời gian làm bài: 16:00–20:00
 - `src/exports/assignment.json`: Có
 
 ## 1. Kiểm tra label (CP0)
@@ -99,7 +100,7 @@ Nguồn ảnh: COCO val2017 / Wikimedia Commons.
 
 ## 8. Khó khăn và lỗi kỹ thuật
 
-Không ghi nhận lỗi kỹ thuật nghiêm trọng. Thông tin hệ điều hành, RAM và thời gian làm bài: **Anh bổ sung**.
+Không ghi nhận lỗi kỹ thuật nghiêm trọng.
 
 ## 9. Tài liệu tham khảo và công cụ AI
 
