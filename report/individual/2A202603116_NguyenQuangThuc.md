@@ -5,7 +5,7 @@
 - Họ tên: Nguyen Quang Thuc
 - MSSV: 2A202603116
 - Email: nguyenquangthuc.info@gmail.com
-- Link repository: https://github.com/ThucNguyen-97/K5-L2A-Day4-NguyenQuangThuc-2A202603116-KeypointPose-S
+- Link repository: https://github.com/ThucNguyen-97/K5-L2A-Day4-NguyenQuangThuc-2A202603116-KeypointPose
 - Phiên bản CVAT: 2.82.0
 - Máy: Microsoft Windows 11 Pro · RAM 15.7 GB
 - Thời gian làm bài: 16:00–20:00
@@ -33,7 +33,7 @@ Cách đổi cờ: chọn một điểm trong skeleton, mở thuộc tính của
 | `crowd` | 1 | 1 |
 | `faces` | 8 | 8 |
 
-Không ghi nhận ca khó đáng kể trong quá trình gán nhãn. Thời gian thực tế: **Anh bổ sung**.
+Không ghi nhận ca khó đáng kể trong quá trình gán nhãn. Thời gian thực tế: **16:00–20:00**.
 
 ## 3. Bảng ca khó (CP1, CP2)
 
