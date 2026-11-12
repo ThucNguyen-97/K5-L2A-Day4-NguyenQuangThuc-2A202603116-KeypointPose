@@ -122,25 +122,25 @@ Không ghi nhận ca khó khi review thủ công. Bốn cảnh báo `lr_swap` l�
 
 ## 6. Ảnh chụp màn hình
 
-1. Skeleton `person` đã gán trên ảnh `000000109010.jpg`:
+1. Ảnh minh họa skeleton `person` với các điểm đã gán:
 
    ![Label person](images/1_label_person.png)
 
-2. Ảnh người nhiều đối tượng `000000269462.jpg` đã gán skeleton:
+2. Một ca người đã gán skeleton trên CVAT:
 
    ![Người quay lưng](images/2_nguoi_quay_lung.png)
 
-3. Khuôn mặt `face_219250.jpg` đã gán 13 điểm, có kính:
+3. Một khuôn mặt đã gán đủ 13 điểm, phóng to vùng mắt:
 
    ![Khuôn mặt phóng to](images/3_mat_phong_to.png)
 
-4. Khuôn mặt `face_155465.jpg` đã gán 13 điểm:
+4. Một đoạn JSON export có mảng `keypoints` và `num_keypoints`:
 
    ![JSON export](images/4_json_export.png)
 
 Nguồn ảnh: COCO val2017 / Wikimedia Commons.
 
-Ghi chú: bốn ảnh hiện có là ảnh minh chứng trực tiếp trên CVAT; chưa có ảnh riêng của label constructor và đoạn JSON export.
+Ghi chú: ba ảnh đầu là ảnh anh cung cấp. Ảnh thứ tư để trống để bổ sung ảnh chụp JSON export.
 
 ## 7. Tự đánh giá
 
